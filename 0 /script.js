@@ -8,7 +8,6 @@ function main() {
         alert('WebGL initialize failed.')
         return;
     }
-
     //用tiffany蓝（129,216,208）作为清除颜色
     gl.clearColor(129 / 255, 216 / 255, 208 / 255, 1.0);
     //清除颜色缓冲区。
