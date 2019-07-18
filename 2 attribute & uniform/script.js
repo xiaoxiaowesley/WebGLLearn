@@ -20,6 +20,7 @@ function main() {
 
     //片元着色器代码
     const fragment_shader = `
+    uniform vec4 inpout_Color;
     void main()
     {
         gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
